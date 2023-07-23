@@ -49,8 +49,8 @@ db = firebase.database()
 auth_pyrebase = firebase.auth()
 
 # Initialize Firebase with Admin SDK
-cred = credentials.Certificate("pages\campusday-aebdc-94e7767c0207.json")
-#firebase_admin.initialize_app(cred)
+cred = credentials.Certificate("pages/campusday-aebdc-94e7767c0207.json")
+firebase_admin.initialize_app(cred)
 auth_admin = auth
 
 def login():
